@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Jason Caetano</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <!-- js -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- Le styles -->
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      
+      <style>
+         body {
+            background: url(assets/img/background.jpg) repeat;
+              }
+      </style>
+
+   </head>
+   <body>
+      <div class="container">
+      <div class="hero-unit" style="margin-top: 25px;">
+        <h1>Jason Caetano</h1>
+         <div class="tabbable tabs-left" style="margin-top: 10px;">
+            <ul class="nav nav-tabs">
+               <li class="active">
+                  <a href="#home" data-toggle="tab"><i class="icon-home"></i>Home</a>
+               </li>
+            
+               <li>
+                  <a href="#about" data-toggle="tab"><i class="icon-user"></i>About</a>
+               </li>
+
+               <li>
+                  <a href='#contact' data-toggle="tab"><i class="icon-envelope"></i>Contact</a>
+               </li>
+
+               <li>
+                  <a href='#develop' data-toggle="tab"><i class="icon-road"></i>So Far</a>
+               </li>
+            </ul>
+
+            <div class="tab-content">
+
+               <div class="tab-pane active" id="home">
+               <p> Hey There!</p>
+               <blockquote>
+               <p> Welcome to my site, feel free to take a look around.</p>
+               <small>Site is still being created, please bare with me.</small>
+               </blockquote>
+               </div>
+
+               <div class="tab-pane" id="about">
+               <h3>Education</h3>
+               <blockquote>
+               <p> <strong>Rutgers University</strong>, School of Engineering, Piscataway NJ </p>
+               <small> Bachelor of Science in Electrical and Computer Engineering (BSECE) </small>
+               <small> Minor in Computer Science </small>
+               </blockquote>
+               
+               <h3>Skills</h3>
+               <blockquote>
+               <p>Technical</p>
+               <small>HTML, CSS, PHP, Java, Javascript (Titanium), Bash </small>
+               <p>Design</p>            
+               <small>Photoshop</small>
+               <p>Languages</p>
+               <small>Portuguese,Spanish</small>
+               </blockquote>
+
+               <h3>Employment</h3>
+               <blockquote>
+               <p>Apple Inc.</p>
+               <small>Specialist <em>since October 2011</em></small>
+               <p>Burst Development</p>
+               <small>Developer/Tester <em>since September 2011</em></small>
+               <p>Rutgers University Residence Life</p>
+               <small>Resident Assistant <em>from August 2010 to January 2012</em></small>
+               <p>Express</p>
+               <small>Sales Associate <em>from May 2010 to February 2011</em></small>
+               <p>JBC Developers LLC.</p>
+               <small>Administrative Assistant <em>from October 2008 to February 2010</em></small>
+               </blockquote>
+               </div>
+
+               <div class="tab-pane" id="contact">
+                  <h3>Contact</h3>
+                  <blockquote>
+                  <p>Feel free to contact me at <em>Jasonc101@gmail.com</em></p>
+                  </blockquote>
+                  <h3>Profiles</h3>
+                  <blockquote>
+                  <a href="http://www.facebook.com/jcaetano2"><img src="assets/img/facebook.png"/></a>
+                  <a href="http://www.linkedin.com/pub/jason-caetano/26/a94/bb1"><img src="assets/img/linkedin.png"/></a>
+                  <a href="https://github.com/jcaetano"><img src="assets/img/github.png"/></a>
+                  </blockquote>
+               </div>
+
+               <div class="tab-pane" id="develop">
+               <h3>iOS</h3>
+
+                  <div class="accordion" id="accordion2">
+                  <!-- LEVEL ONE OF ACCORDION-->                     
+                     <div class="accordion-group">
+                     <div class="accordion-heading">
+                           <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#beezyCollapse">NextBeezy</a>
+                           <div id="beezyCollapse" class="accordion-body collapse"style=" height: 0px">
+                              <div class="accordion-inner">
+                                  <div class="container">
+                                  <div class="span7">
+                                       <!--Carousel-->
+                                       <div id="beezyCar" class="carousel">
+                                       <!-- Carousel Items -->
+                                          <div class="carousel-inner">
+                                             <div class="item active">
+                                                <img src="/assets/img/beezy/beezy_title.png" width="350" height="150" alt="">
+                                                   <div class="carousel-caption">
+                                                      <h4>NextBeezy</h4>
+                                                      <h6>NextBeezy is an application built on top of the NextBus service. Most of the time you're on a routine and the only things you want to see is the Routes and Stops that you need.</h6>
+                                                   </div>
+                                             </div>
+                                             <div class="item">
+                                                <img src="http://placehold.it/350x150" alt="">
+                                                   <div class="carousel-caption">
+                                                      <h4>Second Thumbnail label</h4>
+                                                      <p>Keep it going</p>
+                                                   </div>
+                                             </div>
+                                          </div>
+                                       <a class="left carousel-control" href="#beezyCar" data-slide="prev">&lsaquo;</a>
+                                       <a class="right carousel-control" href="#beezyCar" data-slide="next">&rsaquo;</a>
+                                       </div>
+
+                                  </div>
+                                  </div>
+                              </div>
+                           </div>
+                     </div>
+                     </div>
+                     
+                  <!-- LEVEL TWO OF ACCORDION -->
+                     <div class="accordion-group">
+                     <div class="accordion-heading">
+                           <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#divvyCollapse">Divvycam</a>
+                           <div id="divvyCollapse" class="accordion-body collapse" style="height: 0px;">
+                              <div class="accordion-inner">
+                                  <div class="container">
+                                  <div class="span7">
+                                       <!--Carousel-->
+                                       <div id="divvyCar" class="carousel">
+                                       <!-- Carousel Items -->
+                                          <div class="carousel-inner">
+                                             <div class="active item">
+                                                <img src="/assets/img/divvy/divvy_title.png" width="350" height="150" alt="">
+                                                   <div class="carousel-caption">
+                                                      <h4>DivvyCam</h4>
+                                                      <h6>Divvycam is can iOS application which allows users to easily share their photos between their devices. This application started off as a concept idea then was later developed due to growing interest.</h6>
+                                                   </div>
+                                             </div>
+                                             <div class="item">
+                                                <img src="http://placehold.it/350x150" alt="">
+                                                   <div class="carousel-caption">
+                                                      <h4>Second Thumbnail label</h4>
+                                                      <p>Keep it going</p>
+                                                   </div>
+                                             </div>
+
+                                             <div class="item">
+                                                <img src="http://placehold.it/350x150" alt="">
+                                                   <div class="carousel-caption">
+                                                      <h4>Second Thumbnail label</h4>
+                                                      <p>Keep it going</p>
+                                                   </div>
+                                             </div>
+                                          </div>
+                                       <a class="left carousel-control" href="#divvyCar" data-slide="prev">&lsaquo;</a>
+                                       <a class="right carousel-control" href="#divvyCar" data-slide="next">&rsaquo;</a>
+                                       </div>
+
+                                       <script>
+                                          $(document).ready(function() {
+                                          $('#beezyCar').carousel({
+                                            interval: 4000
+                                            });
+
+                                          $('#divvyCar').carousel({
+                                            interval: 4000
+                                            });
+
+                                          $('#keenoCar').carousel({
+                                            interval: 4000
+                                            });
+                                          });
+                                       </script>
+
+                                  </div>
+                                  </div>
+                              </div>
+                           </div>
+                     </div>
+                     </div>
+
+                  <!-- LEVEL THREE OF ACCORDION -->
+                     <div class="accordion-group">
+                     <div class="accordion-heading">
+                           <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#keenoCollapse">Keeno</a>
+                           <div id="keenoCollapse" class="accordion-body collapse" style="height: 0px;">
+                              <div class="accordion-inner">
+                                  <div class="container">
+                                  <div class="span7">
+                                       <!--Carousel-->
+                                       <div id="keenoCar" class="carousel">
+                                       <!-- Carousel Items -->
+                                          <div class="carousel-inner">
+                                             <div class="active item">
+                                                <img src="/assets/img/keeno/keeno_title.png" width="350" height="150">
+                                                   <div class="carousel-caption">
+                                                      <h4>Keeno</h4>
+                                                      <h6>Keeno is a application which supports spontaneous social messaging by relating your commonalities through Facebook.</h6>
+                                                   </div>
+                                             </div>
+                                             <div class="item">
+                                                <img src="http://placehold.it/350x150">
+                                                   <div class="carousel-caption">
+                                                      <h4>Second Thumbnail label</h4>
+                                                      <p>Keep it going</p>
+                                                   </div>
+                                             </div>
+                                          </div>
+                                       <a class="left carousel-control" href="#keenoCar" data-slide="prev">‹</a>
+                                       <a class="right carousel-control" href="#keenoCar" data-slide="next">›</a>
+                                       </div>
+                                       </div>
+                                  </div>
+                                  </div>
+                              </div>
+                           </div>
+                     </div>
+
+                     <h3>Web</h3>
+                     <blockquote>
+                     <p>This Webpage :)</p>
+                     </blockquote>
+
+                     
+                     <h3>Design</h3>
+                     <blockquote>
+                     <p>Coming Soon</p>
+                     </blockquote>
+                     </div>
+               </div>
+               </div>
+               </div>
+      </div> 
+</div>
+   </body>
+</html>
